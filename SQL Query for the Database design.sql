@@ -7,6 +7,7 @@
 --     dealerPassword VARCHAR(255) NOT NULL
 -- );
 
+use onlinewatchstore;
 -- CREATE TABLE courierservice (
 --     courierServiceId VARCHAR(20) PRIMARY KEY,
 --     courierServiceName VARCHAR(100),
@@ -91,4 +92,4 @@
 
 -- SELECT adminId FROM admin ORDER BY adminId DESC LIMIT 1;
 
-SELECT * FROM cart;
+SELECT * FROM admin;
